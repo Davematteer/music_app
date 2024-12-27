@@ -9,3 +9,4 @@ def home():
 @app.route('/trending')
 def trending_music():
     return jsonify({"trending":["Song A","Song B"]})
+
